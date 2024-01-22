@@ -40,9 +40,9 @@ func main() {
 			panic(err.Error())
 		}
 
-	err:=Lookup("add")
+		err = Lookup("add")
 		if err != nil {
-			fmt.Printf("add: %s\n",  err.Error())
+			fmt.Printf("add: %s\n", err.Error())
 		}
 
 		r := C_Add(1, 2)
