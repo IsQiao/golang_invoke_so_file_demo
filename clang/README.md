@@ -16,4 +16,9 @@ gcc -L/home/evan/repos/golang_invoke_so_file_demo/c_demo -Wall -o test main.c -I
 
 # 这个不对，不需要强行引用a.so
 gcc -L/home/evan/repos/golang_invoke_so_file_demo/c_demo -Wall -o test main.c -la -I.
+
+./test
+# Hello, I am a shared library111
+# Hello, I am a shared library222
+# Hello, I am a shared library11
 ```
